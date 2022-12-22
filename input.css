@@ -34,3 +34,9 @@
 .hamburger-bottom {
   transform: translateY(16px);
 }
+
+#hero {
+  background-image: url("../images/header-desktop.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

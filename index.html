@@ -60,7 +60,7 @@
         </ul>
       </nav>
       <!-- hero -->
-      <div class="relative bg-pink-200 h-[32rem]">
+      <div id="hero" class="relative bg-pink-200 h-[32rem]">
         <div dir="rtl" class="md:absolute md:top-40 md:left-12">
           <div
             class="flex flex-col items-center pt-72 md:pt-0 md:items-start justify-center mx-auto max-w-md"
@@ -85,28 +85,93 @@
       <p class="text-lg md:text-xl text-gray-500">
         زیباترین پارچه های زمستانی در تخفیف شگفت انگیز
       </p>
+      <!-- part 1 -->
       <div
         dir="rtl"
         class="flex flex-col md:flex-row items-center justify-between gap-8 mt-10"
       >
         <!-- item 1 -->
-        <div class="flex flex-col items-center gap-2 w-full">
-          <!-- <img src="" alt="" /> -->
-          <div class="bg-purple-200 h-72 w-full"></div>
+        <div class="flex flex-col items-center gap-4 w-full">
+          <div class="overflow-hidden">
+            <img
+              src="./images/cat1.JPG"
+              class="hover:scale-110 duration-300"
+              alt=""
+            />
+          </div>
+          <!-- <div class="bg-purple-200 h-72 w-full"></div> -->
           <p>پارچه چرم</p>
           <p class="font-bold">تا 20% تخفیف</p>
         </div>
         <!-- item 2 -->
         <div class="flex flex-col items-center gap-4 w-full">
-          <!-- <img src="" alt="" /> -->
-          <div class="bg-pink-200 h-72 w-full"></div>
+          <div class="overflow-hidden">
+            <img
+              src="./images/cat2.jpg"
+              class="hover:scale-110 duration-300"
+              alt=""
+            />
+          </div>
+          <!-- <div class="bg-pink-200 h-72 w-full"></div> -->
           <p>خز تدی</p>
           <p class="font-bold">تا 30% تخفیف</p>
         </div>
         <!-- item 3 -->
         <div class="flex flex-col items-center gap-4 w-full">
-          <!-- <img src="" alt="" /> -->
-          <div class="bg-green-200 h-72 w-full"></div>
+          <div class="overflow-hidden">
+            <img
+              src="./images/cat3.jpg"
+              class="hover:scale-110 duration-300"
+              alt=""
+            />
+          </div>
+          <!-- <div class="bg-green-200 h-72 w-full"></div> -->
+          <p>پارچه دورس</p>
+          <p class="font-bold">تا 15% تخفیف</p>
+        </div>
+      </div>
+      <!-- part 2 -->
+      <div
+        dir="rtl"
+        id="cat-part-2"
+        class="hidden flex-col md:flex-row items-center justify-between gap-8 mt-10"
+      >
+        <!-- item 4 -->
+        <div class="flex flex-col items-center gap-4 w-full">
+          <div class="overflow-hidden">
+            <img
+              src="./images/cat4.JPG"
+              class="hover:scale-110 duration-300"
+              alt=""
+            />
+          </div>
+          <!-- <div class="bg-purple-200 h-72 w-full"></div> -->
+          <p>پارچه چرم</p>
+          <p class="font-bold">تا 20% تخفیف</p>
+        </div>
+        <!-- item 5 -->
+        <div class="flex flex-col items-center gap-4 w-full">
+          <div class="overflow-hidden">
+            <img
+              src="./images/cat5.jpg"
+              class="hover:scale-110 duration-300"
+              alt=""
+            />
+          </div>
+          <!-- <div class="bg-pink-200 h-72 w-full"></div> -->
+          <p>خز تدی</p>
+          <p class="font-bold">تا 30% تخفیف</p>
+        </div>
+        <!-- item 6 -->
+        <div class="flex flex-col items-center gap-4 w-full">
+          <div class="overflow-hidden">
+            <img
+              src="./images/cat6.jpg"
+              class="hover:scale-110 duration-300"
+              alt=""
+            />
+          </div>
+          <!-- <div class="bg-green-200 h-72 w-full"></div> -->
           <p>پارچه دورس</p>
           <p class="font-bold">تا 15% تخفیف</p>
         </div>
@@ -116,12 +181,14 @@
     <!-- line -->
     <section class="relative section-container my-24">
       <div class="h-12 flex flex-col justify-center">
-        <div class="bg-gray-400 pb-[2px]"></div>
-        <a
-          href="#"
-          class="px-10 py-1 absolute text-lg top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-white self-center font-bold border-2 border-gray-400"
-          >خرید کالا</a
+        <div class="bg-gray-700 pb-[2px]"></div>
+        <button
+          id="catBtn"
+          type="submit"
+          class="px-10 py-1 absolute text-lg top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-white self-center font-bold border-2 border-gray-700 hover:bg-gray-700 hover:text-white duration-200"
         >
+          دسته‌ بندی‌ های بیشتر
+        </button>
       </div>
     </section>
 
@@ -364,5 +431,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>
