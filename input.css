@@ -40,3 +40,9 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@media (max-width: 576px) {
+  #hero {
+    background-position: center;
+  }
+}
