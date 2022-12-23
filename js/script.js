@@ -10,5 +10,6 @@ function toggleCat() {
     catBtn.innerText = "دسته‌ بندی‌ های کمتر";
   } else {
     catBtn.innerText = "دسته‌ بندی‌ های بیشتر";
+    window.location.href = "#line";
   }
 }
