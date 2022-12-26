@@ -35,6 +35,22 @@
   transform: translateY(16px);
 }
 
+.open {
+  transform: rotate(90deg);
+}
+
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translateX(6px);
+}
+
+.open .hamburger-middle {
+  display: none;
+}
+
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}
+
 #hero {
   background-image: url("../images/header-desktop.JPG");
   background-size: cover;
