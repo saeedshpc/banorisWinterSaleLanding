@@ -43,6 +43,7 @@
 
 @media (max-width: 576px) {
   #hero {
-    background-position: center;
+    background-image: url("../images/header-mobile.JPG");
+    background-position: bottom;
   }
 }
