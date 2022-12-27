@@ -23,3 +23,10 @@ function mobileMenuToggle() {
   mobileMenu.classList.toggle("hidden");
   mobileMenu.classList.toggle("flex");
 }
+
+// mobile menu closing fix
+const mobileMenuLinks = document.getElementsByClassName("mobileMenuLinks");
+var mobileMenuLinksArrays = [...mobileMenuLinks];
+mobileMenuLinksArrays.forEach((element) => {
+  element.addEventListener("click", mobileMenuToggle);
+});
